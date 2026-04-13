@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Keylogger Demo</h2>
+<input type="text" id="inputBox" placeholder="Type here...">
+
+<p id="output"></p>
+
+<script>
+document.getElementById("inputBox").addEventListener("keyup", function(event) {
+    document.getElementById("output").innerText += event.key;
+});
+</script>
+
+<!-- This captures user keystrokes, which is a security risk -->
+
+</body>
+</html>

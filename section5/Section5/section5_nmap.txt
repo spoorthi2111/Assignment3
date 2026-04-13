@@ -1,0 +1,19 @@
+1. Ping Scan:
+Command: nmap -sn scanme.nmap.org
+This checks if host is alive.
+
+2. TCP SYN Scan:
+Command: nmap -sS scanme.nmap.org
+This scans top ports quickly.
+
+3. Service Version:
+Command: nmap -sV -p 80 scanme.nmap.org
+This finds service running on port 80.
+
+4. OS Detection:
+Command: nmap -O scanme.nmap.org
+This detects operating system.
+
+5. NSE Scripts:
+Command: nmap -sC scanme.nmap.org
+This runs default scripts.
